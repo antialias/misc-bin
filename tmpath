@@ -1,0 +1,10 @@
+#!/usr/bin/osascript
+-- returns the path of the frontmost window or tab in TextMate
+tell application "System Events"
+	local myString
+	set myString to value of attribute "AXDocument" of first window of process "TextMate"
+	if myString is missing value then
+		return
+	end if
+	return characters 8 thru -1 of myString as string
+end tell
