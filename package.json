@@ -1,0 +1,23 @@
+{
+  "name": "textmate-tricks",
+  "version": "1.0.0",
+  "description": "textmate-tricks ===============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tmpath": "./tmpath"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antialias/textmate-tricks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antialias/textmate-tricks/issues"
+  },
+  "homepage": "https://github.com/antialias/textmate-tricks#readme"
+}
