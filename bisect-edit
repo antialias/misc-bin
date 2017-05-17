@@ -1,0 +1,1 @@
+git bisect log > /tmp/$$.bisectlog && vim /tmp/$$.bisectlog && git bisect replay /tmp/$$.bisectlog && rm /tmp/$$.bisectlog
